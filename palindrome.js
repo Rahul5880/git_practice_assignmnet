@@ -1,11 +1,11 @@
 N=6;
 str="nrupul";
 
- bag="1";
-     for(i=N;i>=0;i--){
-      bag=bag-str[j];
+ bag="";
+     for(let i=N-1;i>=0;i--){
+      bag+=str[i];
   }
-    if(bag){
+    if(bag == str){
         console.log("Yes");
     }else{
         console.log("No");
