@@ -1,20 +1,20 @@
-for(let i=1;i<=10;i++){
+for(let a=1;a<=10;a++){
   
 
 
 let count=0;
-for(let j= 1; j<=i; j++ ){
+for(let b=1; b<=i; b++ ){
 
-  if(i%j==0){
+  if(a%b==0){
     count++
   }
 }
 
 
 if(count==2){
-  console.log(i,"is prime number");
+  console.log(a,"is prime number");
 }else{
-  console.log(i," is not prime number");
+  console.log(b," is not prime number");
 }
   
 }
