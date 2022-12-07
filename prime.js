@@ -3,7 +3,7 @@ for(let a=1;a<=10;a++){
 
 
 let count=0;
-for(let b=1; b<=i; b++ ){
+for(let b=1; b<=i; b++){
 
   if(a%b==0){
     count++
