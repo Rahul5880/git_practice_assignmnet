@@ -2,8 +2,8 @@ N=6;
 str="nrupul";
 
  bag="";
-     for(let i=N-1;i>=0;i--){
-      bag+=str[i];
+     for(let a=N-1;a>=0;a--){
+      bag+=str[a];
   }
     if(bag == str){
         console.log("Yes");
